@@ -37,4 +37,7 @@ class SlingShot{
         this.slingShot.bodyA = null;
     }
 
+        attach(body){
+            this.slingShot.bodyA = body;
+        }
 }
